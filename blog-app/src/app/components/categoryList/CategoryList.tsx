@@ -10,6 +10,19 @@ const CategoryList = () => {
       <div className={styles.categories}>
         <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
           <Image src="/style.png" alt="" width={32} height={32} className='styles.image' />
+          Style
+        </Link>
+        <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+          <Image src="/fashion.png" alt="" width={32} height={32} className='styles.image' />
+          Fashion
+        </Link>
+        <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+          <Image src="/food.png" alt="" width={32} height={32} className='styles.image' />
+          Food
+        </Link>
+        <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+          <Image src="/travel.png" alt="" width={32} height={32} className='styles.image' />
+          Travel
         </Link>
       </div>
     </div>
